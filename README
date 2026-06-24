@@ -1,0 +1,35 @@
+🚀 Completed a Full-Stack Todo Application Deployment on Google Cloud VM
+
+Over the past few days, I built and deployed a full-stack Todo application using:
+
+🔹 React.js (Frontend)
+🔹 Node.js + Express.js (Backend)
+🔹 MongoDB (Database)
+🔹 Nginx (Reverse Proxy & Static File Server)
+🔹 PM2 (Node.js Process Manager)
+🔹 Google Cloud Compute Engine VM
+
+Architecture:
+
+Users → Nginx → React Frontend / Node.js API → MongoDB
+
+Key things I learned during this project:
+
+✅ Building and deploying a React production build
+✅ Running a Node.js API in production using PM2
+✅ Configuring Nginx as a reverse proxy
+✅ Routing API requests through Nginx to avoid CORS issues
+✅ Managing environment variables for frontend and backend
+✅ Deploying and maintaining applications on a Linux VM
+✅ Using GitHub and SSH for deployment workflows
+
+One of the most interesting lessons was understanding why Nginx sits in front of Node.js:
+
+* It serves static files efficiently
+* It acts as a reverse proxy
+* It improves security
+* It simplifies HTTPS configuration
+* It provides a production-ready architecture
+
+This project helped me understand not only how to build a full-stack application, but also how modern web applications are deployed and managed in production environments.
+
